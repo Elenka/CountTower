@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538729ED15C2929D00036066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538729EC15C2929D00036066 /* UIKit.framework */; };
+		538729EF15C2929D00036066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538729EE15C2929D00036066 /* Foundation.framework */; };
+		538729F115C2929D00036066 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538729F015C2929D00036066 /* CoreGraphics.framework */; };
+		538729F715C2929D00036066 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 538729F515C2929D00036066 /* InfoPlist.strings */; };
+		538729F915C2929D00036066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 538729F815C2929D00036066 /* main.m */; };
+		538729FD15C2929D00036066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 538729FC15C2929D00036066 /* AppDelegate.m */; };
+		53872A0015C2929D00036066 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538729FE15C2929D00036066 /* MainStoryboard.storyboard */; };
+		53872A0B15C29A4B00036066 /* TowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53872A0A15C29A4B00036066 /* TowerViewController.m */; };
+		53872A1515C2A35700036066 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53872A1415C2A35700036066 /* CoreLocation.framework */; };
+		53C3779815C2EFED005A8346 /* towerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 53C3779715C2EFED005A8346 /* towerLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		538729E815C2929D00036066 /* TowerCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538729EC15C2929D00036066 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		538729EE15C2929D00036066 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		538729F015C2929D00036066 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		538729F415C2929D00036066 /* TowerCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TowerCounter-Info.plist"; sourceTree = "<group>"; };
+		538729F615C2929D00036066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		538729F815C2929D00036066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		538729FA15C2929D00036066 /* TowerCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TowerCounter-Prefix.pch"; sourceTree = "<group>"; };
+		538729FB15C2929D00036066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		538729FC15C2929D00036066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		538729FF15C2929D00036066 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		53872A0915C29A4B00036066 /* TowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerViewController.h; sourceTree = "<group>"; };
+		53872A0A15C29A4B00036066 /* TowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerViewController.m; sourceTree = "<group>"; };
+		53872A1415C2A35700036066 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		53C3779715C2EFED005A8346 /* towerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = towerLogo.png; path = TowerCounter/towerLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538729E515C2929D00036066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53872A1515C2A35700036066 /* CoreLocation.framework in Frameworks */,
+				538729ED15C2929D00036066 /* UIKit.framework in Frameworks */,
+				538729EF15C2929D00036066 /* Foundation.framework in Frameworks */,
+				538729F115C2929D00036066 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538729DD15C2929D00036066 = {
+			isa = PBXGroup;
+			children = (
+				53C3779715C2EFED005A8346 /* towerLogo.png */,
+				538729F215C2929D00036066 /* TowerCounter */,
+				538729EB15C2929D00036066 /* Frameworks */,
+				538729E915C2929D00036066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538729E915C2929D00036066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538729E815C2929D00036066 /* TowerCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538729EB15C2929D00036066 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53872A1415C2A35700036066 /* CoreLocation.framework */,
+				538729EC15C2929D00036066 /* UIKit.framework */,
+				538729EE15C2929D00036066 /* Foundation.framework */,
+				538729F015C2929D00036066 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		538729F215C2929D00036066 /* TowerCounter */ = {
+			isa = PBXGroup;
+			children = (
+				53872A0915C29A4B00036066 /* TowerViewController.h */,
+				53872A0A15C29A4B00036066 /* TowerViewController.m */,
+				538729FB15C2929D00036066 /* AppDelegate.h */,
+				538729FC15C2929D00036066 /* AppDelegate.m */,
+				538729FE15C2929D00036066 /* MainStoryboard.storyboard */,
+				538729F315C2929D00036066 /* Supporting Files */,
+			);
+			path = TowerCounter;
+			sourceTree = "<group>";
+		};
+		538729F315C2929D00036066 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				538729F415C2929D00036066 /* TowerCounter-Info.plist */,
+				538729F515C2929D00036066 /* InfoPlist.strings */,
+				538729F815C2929D00036066 /* main.m */,
+				538729FA15C2929D00036066 /* TowerCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538729E715C2929D00036066 /* TowerCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53872A0615C2929D00036066 /* Build configuration list for PBXNativeTarget "TowerCounter" */;
+			buildPhases = (
+				538729E415C2929D00036066 /* Sources */,
+				538729E515C2929D00036066 /* Frameworks */,
+				538729E615C2929D00036066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerCounter;
+			productName = TowerCounter;
+			productReference = 538729E815C2929D00036066 /* TowerCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538729DF15C2929D00036066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 538729E215C2929D00036066 /* Build configuration list for PBXProject "TowerCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 538729DD15C2929D00036066;
+			productRefGroup = 538729E915C2929D00036066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538729E715C2929D00036066 /* TowerCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538729E615C2929D00036066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538729F715C2929D00036066 /* InfoPlist.strings in Resources */,
+				53872A0015C2929D00036066 /* MainStoryboard.storyboard in Resources */,
+				53C3779815C2EFED005A8346 /* towerLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538729E415C2929D00036066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538729F915C2929D00036066 /* main.m in Sources */,
+				538729FD15C2929D00036066 /* AppDelegate.m in Sources */,
+				53872A0B15C29A4B00036066 /* TowerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		538729F515C2929D00036066 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538729F615C2929D00036066 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		538729FE15C2929D00036066 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538729FF15C2929D00036066 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53872A0415C2929D00036066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53872A0515C2929D00036066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53872A0715C2929D00036066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TowerCounter/TowerCounter-Prefix.pch";
+				INFOPLIST_FILE = "TowerCounter/TowerCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53872A0815C2929D00036066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TowerCounter/TowerCounter-Prefix.pch";
+				INFOPLIST_FILE = "TowerCounter/TowerCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538729E215C2929D00036066 /* Build configuration list for PBXProject "TowerCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53872A0415C2929D00036066 /* Debug */,
+				53872A0515C2929D00036066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53872A0615C2929D00036066 /* Build configuration list for PBXNativeTarget "TowerCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53872A0715C2929D00036066 /* Debug */,
+				53872A0815C2929D00036066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538729DF15C2929D00036066 /* Project object */;
+}
